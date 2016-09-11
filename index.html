@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Simple Swift Tableview IOS : UITableView in Swift Language IOS">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Simple Swift Tableview IOS</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Technosearch/SwiftTableView">View on GitHub</a>
+
+          <h1 id="project_title">Simple Swift Tableview IOS</h1>
+          <h2 id="project_tagline">UITableView in Swift Language IOS</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Technosearch/SwiftTableView/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Technosearch/SwiftTableView/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h1>
+
+<p>To Implement UITableView using swift is very easy . Just you need to follow below steps.</p>
+
+<h2>
+<a id="step1" class="anchor" href="#step1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step1.</h2>
+
+<p>Open Xcode and select single view application , uncheck core data and create project by name SwiftTableView.</p>
+
+<h2>
+<a id="step2" class="anchor" href="#step2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step2.</h2>
+
+<p>Open Storyboard and add UITableView in view controller and UITableViewCell on top of UITableView.</p>
+
+<h2>
+<a id="step3" class="anchor" href="#step3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step3.</h2>
+
+<p>Set the cell identifier for UITableViewCell in storyboard and delegate and datasource of UITableView.</p>
+
+<h2>
+<a id="step4" class="anchor" href="#step4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step4.</h2>
+
+<p>Conform UITableViewDelegate and UITableViewDatasource in ViewController</p>
+
+<h2>
+<a id="step5" class="anchor" href="#step5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step5.</h2>
+
+<p>Create a array of List of Friends to populate into TableView.</p>
+
+<h2>
+<a id="step6" class="anchor" href="#step6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step6.</h2>
+
+<p>Add Following delegate and datasource method of UITableView.</p>
+
+<p>func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int</p>
+
+<p>func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int</p>
+
+<p>func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat</p>
+
+<p>func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat</p>
+
+<p>func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -&gt; String?</p>
+
+<p>func tableView(tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? </p>
+
+<p>func tableView(tableView: UITableView, heightForFooterInSection section: Int) -&gt; CGFloat</p>
+
+<p>func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell</p>
+
+<p>func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) </p>
+
+<h2>
+<a id="step7" class="anchor" href="#step7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step7.</h2>
+
+<p>Now Build and Run the Code (Enjoy......:) </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Simple Swift Tableview IOS maintained by <a href="https://github.com/Technosearch">Technosearch</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
